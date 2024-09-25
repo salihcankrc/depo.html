@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    </head>
+         <title>tablo</title>
+      </head>
+      </body>
+<table border="2">
+    <tr>
+        <td>123</td>
+        <td>salih</td>
+    </tr>
+
+    <tr>
+        <td>124</td>
+        <td>enes</td>
+    </tr>
+
+    <tr>
+        <td>125</td>
+        <td>muhammed</td>
+    </tr>
+
+<!DOCTYPE html>
+<html>
+    </head>
+    <table border="1" cellpadding="5">
+        <tr>
+         <th rowspan="3"> .. </th>
+         <th colspan="2"> .. </th>
+         </tr>
+         <tr>
+         <td> .. </td>
+         <td> .. </td>
+         </tr>
+         <tr>
+         <td> .. </td>
+         <td> .. </td>
+         </tr>
+        </table>
+
+<!DOCTYPE html>
+<html>
+    </head>
+    <table border="1" cellpadding="5">
+        <tr>
+        <th> Hücre 1 </th>
+        <th rowspan="2"> Hücre 2</th>
+        <th> Hücre 3 </th>
+        </tr>
+        <tr>
+        <td> Hücre 4 </td>
+        <td> Hücre 5 </td>
+        </tr>
+       </table>
+
+<!DOCTYPE html>
+<html>
+    </head>
+    <table border="1" cellpadding="5">
+        <caption>Yazılı Notları</caption>
+        <thead>
+        <tr>
+        <th>İsim</th>
+        <th>Not</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>muhammed</td>
+        <td>100</td>
+        </tr>
+        <tr>
+        <td>enes</td>
+        <td>90</td>
+        </tr>
+        <tr>
+        <td>salih</td>
+        <td>80</td>
+        </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+            <td>Ortalama</td>
+            <td>95</td>
+            </tr>
+            </tfoot>
+           </table>
